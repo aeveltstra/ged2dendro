@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+<header><head></head><charset>UTF-8</charset><source>OmegaJunior Software Consultancy</source><gedc><version>5.5</version><form>LINEAGE-LINKED</form></gedc></header>
+
+<family><id>F1</id><spouse>P2</spouse><spouse>P1</spouse><child>P3<relation-to-father>Natural</relation-to-father><relation-to-mother>Natural</relation-to-mother></child></family>
+
+<family><id>F2</id><spouse>P3</spouse><spouse>P4</spouse><child>P5<relation-to-father>Natural</relation-to-father><relation-to-mother>Natural</relation-to-mother></child></family>
+
+<person><andThisNode/><id>P1</id><sexe>F</sexe><name>GAIA</name><object><file>https://images.cloudflare.com/gaia.jpg</file><form>jpg</form><title>Gaia</title></object><own-family>F1</own-family></person>
+
+<person><id>P2</id><sexe>M</sexe><name>Kronos</name><own-family>F1</own-family></person>
+
+<person><id>P3</id><birth><date>1 Jan 1900</date></birth><sexe>M</sexe><name>Poseidon</name><parents>F1</parents><own-family>F2</own-family></person>
+
+<person><id>P4</id><birth><date>2 Feb 1901</date></birth><name>Dittie Jackson</name><sexe>F</sexe><own-family>F2</own-family></person>
+
+<person><endNode/><id>P5</id><birth><date>1 Jan 1900</date></birth><name>Percy Jackson</name><sexe>M</sexe><parents>F2</parents></person>
+
+<trailer><trailer></trailer></trailer>
+
+</xml>

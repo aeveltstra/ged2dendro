@@ -1,0 +1,50 @@
+0 HEAD
+1 CHAR UTF-8
+1 SOUR OmegaJunior Software Consultancy
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+0 @P5@ INDI
+1 BIRT
+2 DATE 1 Jan 1900
+1 NAME Percy /Jackson/
+1 SEX M
+1 FAMC @F2@
+0 @P1@ INDI
+1 SEX F
+1 NAME /GAIA/
+1 OBJE
+2 FILE https://images.cloudflare.com/gaia.jpg
+2 FORM jpg
+2 TITL Gaia
+1 FAMS @F1@
+0 @P2@ INDI
+1 SEX M
+1 NAME /Kronos/
+1 FAMS @F1@
+0 @P3@ INDI
+1 BIRT
+2 DATE 1 Jan 1900
+1 SEX M
+1 NAME /Poseidon/
+1 FAMC @F1@
+1 FAMS @F2@
+0 @P4@ INDI
+1 BIRT
+2 DATE 2 Feb 1901
+1 NAME Dittie /Jackson/
+1 SEX F
+1 FAMS @F2@
+0 @F1@ FAM
+1 HUSB @P2@
+1 WIFE @P1@
+1 CHIL @P3@
+2 _FREL Natural
+2 _MREL Natural
+0 @F2@ FAM
+1 HUSB @P3@
+1 WIFE @P4@
+1 CHIL @P5@
+2 _FREL Natural
+2 _MREL Natural
+0 TRLR
